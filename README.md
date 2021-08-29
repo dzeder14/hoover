@@ -18,15 +18,15 @@ node hoover input.txt
 1 3
 1
 
-#input1.txt is a longer test that finds more dirt spots
+# input1.txt is a longer test that finds more dirt spots
 node hoover input1.txt
-#returns
+# returns
 1 5
 8
 
-#input2.txt is if hoover tries to go outside room parameters
+# input2.txt is if hoover tries to go outside room parameters
 node hoover input2.txt
-#returns
+# returns
 Hoover hit the wall
 Hoover hit the wall
 Hoover hit the wall
@@ -34,8 +34,8 @@ Hoover hit the wall
 1 1
 1
 
-#input3.txt if same dirt patch is give twice only counts once
+# input3.txt if same dirt patch is give twice only counts once
 node hoover input3.txt
-#returns
+# returns
 1 2
 0
